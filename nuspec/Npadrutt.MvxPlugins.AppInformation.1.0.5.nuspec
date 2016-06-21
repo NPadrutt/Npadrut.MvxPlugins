@@ -15,7 +15,7 @@
             <group targetFramework=".NETPortable0.0-net45+win8+wpa81">
                 <dependency id="MvvmCross.Platform" version="4.2.0" />
             </group>
-            <group targetFramework="Unsupported0.0">
+            <group targetFramework=".NETCore4.5.1">
                 <dependency id="MvvmCross.Platform" version="4.2.0" />
             </group>
         </dependencies>
@@ -23,12 +23,12 @@
     <files>
         <file src="BootstrapContent\AppInformationPluginBootstrap.cs.pp" target="content\MonoAndroid\Bootstrap\AppInformationPluginBootstrap.cs.pp" />
         <file src="BootstrapContent\AppInformationPluginBootstrap.cs.pp" target="content\portable-net45+sl4+wp7+win8\Bootstrap\AppInformationPluginBootstrap.cs.pp" />
-        <file src="BootstrapContent\AppInformationPluginBootstrap.cs.pp" target="content\uap10.0\Bootstrap\AppInformationPluginBootstrap.cs.pp" />
+        <file src="BootstrapContent\AppInformationPluginBootstrap.cs.pp" target="content\netcore451\Bootstrap\AppInformationPluginBootstrap.cs.pp" />
         <file src="..\AppInformation\AppInformation.Droid\bin\Release\Npadrutt.MvxPlugins.AppInformation.dll" target="lib\MonoAndroid\Npadrutt.MvxPlugins.AppInformation.dll" />
         <file src="..\AppInformation\AppInformation.Droid\bin\Release\Npadrutt.MvxPlugins.AppInformation.Droid.dll" target="lib\MonoAndroid\Npadrutt.MvxPlugins.AppInformation.Droid.dll" />
         <file src="..\AppInformation\AppInformation.WindowsUWP\bin\Release\Npadrutt.MvxPlugins.AppInformation.dll" target="lib\portable-net45+sl4+wp7+win8\Npadrutt.MvxPlugins.AppInformation.dll" />
-        <file src="..\AppInformation\AppInformation.WindowsUWP\bin\Release\Npadrutt.MvxPlugins.AppInformation.dll" target="lib\uap10.0\Npadrutt.MvxPlugins.AppInformation.dll" />
-        <file src="..\AppInformation\AppInformation.WindowsUWP\bin\Release\Npadrutt.MvxPlugins.AppInformation.WindowsUWP.dll" target="lib\uap10.0\Npadrutt.MvxPlugins.AppInformation.WindowsUWP.dll" />
-        <file src="..\AppInformation\AppInformation.WindowsUWP\bin\Release\Npadrutt.MvxPlugins.AppInformation.WindowsUWP.pri" target="lib\uap10.0\Npadrutt.MvxPlugins.AppInformation.WindowsUWP.pri" />
+        <file src="..\AppInformation\AppInformation.WindowsUWP\bin\Release\Npadrutt.MvxPlugins.AppInformation.dll" target="lib\netcore451\Npadrutt.MvxPlugins.AppInformation.dll" />
+        <file src="..\AppInformation\AppInformation.WindowsUWP\bin\Release\Npadrutt.MvxPlugins.AppInformation.WindowsUWP.dll" target="lib\netcore451\Npadrutt.MvxPlugins.AppInformation.WindowsUWP.dll" />
+        <file src="..\AppInformation\AppInformation.WindowsUWP\bin\Release\Npadrutt.MvxPlugins.AppInformation.WindowsUWP.pri" target="lib\netcore451\Npadrutt.MvxPlugins.AppInformation.WindowsUWP.pri" />
     </files>
 </package>
