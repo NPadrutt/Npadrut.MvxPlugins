@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Droid.Resource", IsApplication=false)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Npadrutt.MvxPlugins.StoreOperations.Droid.Resource", IsApplication=false)]
 
-namespace Droid
+namespace Npadrutt.MvxPlugins.StoreOperations.Droid
 {
 	
 	

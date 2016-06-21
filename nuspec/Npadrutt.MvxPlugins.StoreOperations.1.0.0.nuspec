@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Npadrutt.MvxPlugins.StoreOperations</id>
+        <version>1.0.0</version>
+        <title>Npadrutt.MvxPlugins.StoreOperations</title>
+        <authors>padruttn</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>My package description.</description>
+        <serviceable>false</serviceable>
+        <dependencies>
+            <group targetFramework="MonoAndroid0.0">
+                <dependency id="MvvmCross.Platform" version="4.2.0" />
+            </group>
+            <group targetFramework=".NETPortable0.0-net45+win8+wpa81">
+                <dependency id="MvvmCross.Platform" version="4.2.0" />
+            </group>
+            <group targetFramework="Unsupported0.0">
+                <dependency id="MvvmCross.Platform" version="4.2.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="BootstrapContent\StoreOperationsPluginBootstrap.cs.pp" target="content\MonoAndroid\Bootstrap\StoreOperationsPluginBootstrap.cs.pp" />
+        <file src="BootstrapContent\StoreOperationsPluginBootstrap.cs.pp" target="content\portable-net45+sl4+wp7+win8\Bootstrap\StoreOperationsPluginBootstrap.cs.pp" />
+        <file src="BootstrapContent\StoreOperationsPluginBootstrap.cs.pp" target="content\uap10.0\Bootstrap\StoreOperationsPluginBootstrap.cs.pp" />
+        <file src="..\StoreOperations\StoreOperations.Droid\bin\Release\Npadrutt.MvxPlugins.StoreOperations.dll" target="lib\MonoAndroid\Npadrutt.MvxPlugins.StoreOperations.dll" />
+        <file src="..\StoreOperations\StoreOperations.Droid\bin\Release\Npadrutt.MvxPlugins.StoreOperations.Droid.dll" target="lib\MonoAndroid\Npadrutt.MvxPlugins.StoreOperations.Droid.dll" />
+        <file src="..\StoreOperations\StoreOperations.Core\bin\Release\Npadrutt.MvxPlugins.StoreOperations.dll" target="lib\portable-net45+sl4+wp7+win8\Npadrutt.MvxPlugins.StoreOperations.dll" />
+        <file src="..\StoreOperations\StoreOperations.WindowsUWP\bin\Release\Npadrutt.MvxPlugins.StoreOperations.dll" target="lib\uap10.0\Npadrutt.MvxPlugins.StoreOperations.dll" />
+        <file src="..\StoreOperations\StoreOperations.WindowsUWP\bin\Release\Npadrutt.MvxPlugins.StoreOperations.WindowsUWP.dll" target="lib\uap10.0\Npadrutt.MvxPlugins.StoreOperations.WindowsUWP.dll" />
+        <file src="..\StoreOperations\StoreOperations.WindowsUWP\bin\Release\Npadrutt.MvxPlugins.StoreOperations.WindowsUWP.pri" target="lib\uap10.0\Npadrutt.MvxPlugins.StoreOperations.WindowsUWP.pri" />
+    </files>
+</package>
