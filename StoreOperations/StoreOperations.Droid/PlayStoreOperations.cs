@@ -2,7 +2,7 @@ using Android.App;
 using Android.Content;
 using Android.Net;
 
-namespace StoreOperations.Droid {
+namespace Npadrutt.MvxPlugins.StoreOperations.Droid {
     /// <summary>
     ///     Gives access to the features of google play on android.
     /// </summary>

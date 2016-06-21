@@ -1,7 +1,7 @@
 ﻿using MvvmCross.Platform;
 using MvvmCross.Platform.Plugins;
-using StoreOperations;
-using StoreOperations.Droid;
+using Npadrutt.MvxPlugins.StoreOperations;
+using Npadrutt.MvxPlugins.StoreOperations.Droid;
 
 namespace Npadrutt.MvxPlugins.StoreOperations.Droid 
 {

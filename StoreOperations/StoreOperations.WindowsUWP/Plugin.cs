@@ -1,7 +1,7 @@
 ﻿using MvvmCross.Platform;
 using MvvmCross.Platform.Plugins;
-using StoreOperations;
-using StoreOperations.WindowsUWP;
+using Npadrutt.MvxPlugins.StoreOperations;
+using Npadrutt.MvxPlugins.StoreOperations.WindowsUWP;
 
 namespace Npadrutt.MvxPlugins.StoreOperations.WindowsUWP 
 {
